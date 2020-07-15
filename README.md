@@ -18,6 +18,7 @@ check http://localhost:8000
 ```
 
 phase 2: SSL
+```
 git clone git@github.com:iamsuman/mycaddy.git
 cd mycaddy/phase2
 docker build -t mycaddy:2.0 -t mycaddy:latest .
