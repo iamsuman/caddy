@@ -34,7 +34,7 @@ Verify: http://localhost:8000
 You can directly download this image from docker
 ```
 docker image pull imsuman/mycaddy
-docker container run -d -p 8000:2015 --name mycaddy mycaddy
+docker container run -d -p 8000:2015 --name mycaddy imsuman/mycaddy
 check http://localhost:8000
 ```
 
